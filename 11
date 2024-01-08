@@ -1,0 +1,32 @@
+# -----------------------------Task 1------------------------------------
+
+# import random
+
+# list1 = []
+# list2 = []
+
+# for _ in range(10):
+#     list1.append(random.randint(1, 10))
+    
+# for _ in range(10):
+#     list2.append(random.randint(1, 10))
+    
+# list3 = list1 + list2
+
+# list4 = list(set(list1 + list2))
+
+# list5 = list(set(list1).intersection(set(list2)))
+
+# list6 = list(set(list1).symmetric_difference(set(list2)))
+
+# list7 = [min(list1), max(list1), min(list2), max(list2)]
+
+# print("First list:", list1)
+# print("Second list:", list2)
+
+# print("\n---Elements from both lists: ",list3)
+# print("---Elements from both lists withouth repeats: ",list4)
+# print("---Unique elements from both lists: ",list5)
+# print("---Min and max from each list: ",list6)
+
+# ---------------------------------END------------------------------------
