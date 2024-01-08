@@ -1,0 +1,61 @@
+# -----------------------------Task 1------------------------------------
+
+# first_num = int(input("----Enter first number: "))
+# Second_num = int(input("----Enter second number: "))
+
+# print("\n---1: *, 2: -, 3: +, 4: / ---")
+
+# ch = int(input("----Enter number: "))
+
+# match ch:
+#     case 1: print("-----Results: ", first_num*Second_num, "---")
+#     case 2: print("-----Results: ", first_num-Second_num, "---")
+#     case 3: print("-----Results: ", first_num+Second_num, "---")
+#     case 4: print("-----Results: ", first_num/Second_num, "---")
+
+# -----------------------------Task 2------------------------------------
+
+# import random
+
+# def min_max(elements):
+#     min_element = min(elements)
+#     max_element = max(elements)
+#     return min_element, max_element
+
+# def negative(elements):
+#     count = 0
+#     for num in elements:
+#         if num < 0:
+#             count += 1
+#     return count
+
+# def positive(elements):
+#     count = 0
+#     for num in elements:
+#         if num > 0:
+#             count += 1
+#     return count
+
+# def count_zeros(elements):
+#     count = 0
+#     for num in elements:
+#         if num == 0:
+#             count += 1
+#     return count
+
+# numbers = [random.randint(-100, 100) for _ in range(10)]
+
+# min_num, max_num = min_max(numbers)
+
+# neg_count = negative(numbers)
+# pos_count = positive(numbers)
+# zero_count = count_zeros(numbers)
+
+# print("---List: ", numbers, "---")
+# print("-----Min character: ", min_num, "---")
+# print("-----Max character: ", max_num, "---")
+# print("-----Amount of negative numbers: ", neg_count, "---")
+# print("-----Amount of positive numbers: ", pos_count, "---")
+# print("-----Amount of '0': ", zero_count, "---")
+
+# ---------------------------------END------------------------------------
